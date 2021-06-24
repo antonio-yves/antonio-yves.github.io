@@ -4,7 +4,6 @@ body {
   margin: 0;
   padding: 0;
   font-family: 'Raleway', sans-serif;
-  background: linear-gradient(270deg, #40739e 0%, #0097e6 100%);
   width: 100%;
   max-width: 1120px;
   margin: 0 auto;
@@ -15,12 +14,13 @@ body {
 
 main {
   width: 120vh;
-  background: #fff;
   margin-top: 150px;
   text-align: center;
   border-radius: 10px;
   padding: 0 50px;
   margin-bottom: 50px;
+  background-color: #f5f6fa;
+  color: #000000;
 }
 
 .profile-pic img {

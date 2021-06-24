@@ -7,10 +7,10 @@
   <script src="https://kit.fontawesome.com/1558a67e1d.js" crossorigin="anonymous"></script>
   <title>Antonio Yves de S. Dantas - Github.io</title>
 </head>
-<body>
+<body class="container">
   <main>
     <div class="profile-pic">
-      <img src="https://avatars1.githubusercontent.com/u/38897304?s=460&u=7e136a3c48339d301dd3bcdee8c54bf9b67c50cc&v=4" alt="">
+      <img src="https://avatars1.githubusercontent.com/u/38897304?s=460&u=7e136a3c48339d301dd3bcdee8c54bf9b67c50cc&v=4" alt="Profile Picture" crossorigin="anonymous">
     </div>
     <div class="personal-info">
       <h1>Antonio Yves de S. Dantas</h1>
@@ -31,5 +31,11 @@
       <p><i class="fas fa-envelope"></i> yvissousa@gmail.com</p>
     </div>
   </main>
+  <script src="https://unpkg.com/grade-js/docs/dist/grade.js"></script>
+  <script>
+      window.addEventListener('load', function(){
+          Grade(document.querySelectorAll('.container'))
+      })
+  </script>
 </body>
 </html>
